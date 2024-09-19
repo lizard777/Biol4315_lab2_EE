@@ -11,12 +11,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 #Lab 2 markdown
+
+#### Installing and loading in ggplot2 and vegan packages
 ```{r installing packages, error = TRUE, echo=FALSE, results='hide', warning=FALSE,message=FALSE}
-#install.packages("ggplot2")
+install.packages("ggplot2")
 library(ggplot2)
 
-#install.packages("vegan")
+install.packages("vegan")
 library(vegan)
+
+```
+
+
+#### This code chunk transforms dune2 dataset using log1p
+```{r, error = TRUE, echo=FALSE, results='hide', warning=FALSE,message=FALSE}
+
+data(dune)
+dune2 <- dune
+
+log1p(dune2)
 
 
 
