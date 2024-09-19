@@ -6,4 +6,19 @@ output: html_document
 date: "2024-09-19"
 ---
 
-#Lab 2 markdown 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Lab 2 markdown
+```{r installing packages, error = TRUE, echo=FALSE, results='hide', warning=FALSE,message=FALSE}
+#install.packages("ggplot2")
+library(ggplot2)
+
+#install.packages("vegan")
+library(vegan)
+
+
+
+```
+
