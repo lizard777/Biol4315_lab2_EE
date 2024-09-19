@@ -32,6 +32,15 @@ dune2 <- dune
 log1p(dune2)
 
 
+```
+
+
+#### Preforming nmds on dune2 dataset, and setting it to a new variable called dpoints
+```{r, error = TRUE, echo=FALSE, results='hide', warning=FALSE,message=FALSE}
+dpoints <- metaMDS(dune2)
 
 ```
+
+
+
 
