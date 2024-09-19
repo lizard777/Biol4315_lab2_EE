@@ -1,0 +1,9 @@
+---
+title: "lab2"
+subtitle : "lab2 :3" 
+author: "Liz Ehebald"
+output: html_document
+date: "2024-09-19"
+---
+
+#Lab 2 markdown 
